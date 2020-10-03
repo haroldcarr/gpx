@@ -1,0 +1,11 @@
+* build and test
+
+#+begin_example
+stack test
+#+end_example
+
+* usage
+
+#+begin_example
+stack exec m -- <gpx filename>
+#+end_example

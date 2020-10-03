@@ -1,0 +1,16 @@
+resolver: lts-16.16
+packages:
+- .
+extra-deps:
+- git: https://github.com/haroldcarr/xeno.git
+  commit: 2c01687576bf324e4f03af71d8b64a04653e9206
+# flags: {}
+# extra-package-dbs: []
+# system-ghc: true
+# require-stack-version: -any # Default
+# require-stack-version: ">=2.3"
+# arch: i386
+# arch: x86_64
+# extra-include-dirs: [/path/to/dir]
+# extra-lib-dirs: [/path/to/dir]
+# compiler-check: newer-minor

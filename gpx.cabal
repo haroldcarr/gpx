@@ -1,0 +1,64 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: c38ecf900f022de15bc8408dbb1ee10f5f1b28cfec4509862a6632fa7507cfc0
+
+name:           gpx
+version:        0.1.0.0
+license:        BSD2
+license-file:   LICENSE
+build-type:     Simple
+
+library
+  exposed-modules:
+      Gpx
+  other-modules:
+      Paths_gpx
+  hs-source-dirs:
+      src
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wpartial-fields -Wredundant-constraints -fhide-source-paths -O2 -fno-ignore-asserts
+  build-depends:
+      base >=4.7 && <5
+    , bytestring
+    , protolude
+    , text
+    , xeno
+  default-language: Haskell2010
+
+executable m
+  main-is: Main.hs
+  other-modules:
+      Paths_gpx
+  hs-source-dirs:
+      app
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wpartial-fields -Wredundant-constraints -fhide-source-paths
+  build-depends:
+      base >=4.7 && <5
+    , bytestring
+    , gpx
+    , protolude
+    , text
+    , xeno
+  default-language: Haskell2010
+
+test-suite tests-unit
+  type: exitcode-stdio-1.0
+  main-is: hspec.hs
+  other-modules:
+      XSpec
+      Paths_gpx
+  hs-source-dirs:
+      test
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wpartial-fields -Wredundant-constraints -fhide-source-paths
+  build-depends:
+      base >=4.7 && <5
+    , bytestring
+    , gpx
+    , hspec
+    , protolude
+    , text
+    , xeno
+  default-language: Haskell2010
