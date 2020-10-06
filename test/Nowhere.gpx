@@ -11,6 +11,14 @@
     <ele>0.0</ele>
     <time>2020-10-02T00:45:21Z</time>
    </trkpt>
+   <trkpt lat="40.7364710" lon="-111.8073560">
+    <ele>-500.0</ele>
+    <time>2020-10-02T00:45:21Z</time>
+   </trkpt>
+   <trkpt lat="40.7364710" lon="-111.8073560">
+    <ele>500.0</ele>
+    <time>2020-10-02T00:45:21Z</time>
+   </trkpt>
    <trkpt lat="40.7364560" lon="-111.8073640">
     <ele>1000.0</ele>
     <time>2020-10-02T00:45:22Z</time>
